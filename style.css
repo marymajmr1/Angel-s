@@ -48,3 +48,19 @@ button {
   font-size: 16px;
 }
 
+nav {
+   margin-bottom: 30px;
+ }
+
+nav a {
+  text-decoration: none;
+  color: #d85b91;
+  font-size: 18px;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
