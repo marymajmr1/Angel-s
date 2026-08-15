@@ -1,40 +1,42 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serit;
+  font-family: Arial, sans-serif;
   background-color: #fff0f6;
-  text-aling: center;
+  text-align: center;
   color: #6b4055;
 }
+
 header {
   padding: 60px 20px;
 }
+
 h1 {
-  font-sixe: 55px;
+  font-size: 55px;
   margin-bottom: 15px;
   color: #d85b91;
 }
 
-header p { 
-font-size: 22px;
+header p {
+  font-size: 22px;
 }
 
 main {
   display: flex;
   justify-content: center;
-  gab: 30px;
+  gap: 30px;
   padding: 20px;
 }
 
 section {
   background-color: white;
-  widyh: 280px;
+  width: 280px;
   padding: 30px;
   border-radius: 20px;
-  box-shadow: 0 5px 15px rgba(0. 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  color:#d85b91;
+  color: #d85b91;
   font-size: 28px;
 }
 
@@ -49,75 +51,52 @@ button {
 }
 
 nav {
-   margin-bottom: 30px;
- }
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 15px;
+}
 
 nav a {
   text-decoration: none;
   color: #d85b91;
   font-size: 18px;
-  margin: 0 12px;
+  margin: 0 15px;
   font-weight: bold;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 main > section:last-child {
   width: 80%;
   max-width: 900px;
-  margin: 40px auto; 
+  margin: 40px auto;
   padding: 20px;
   background: #fff7fb;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+main > section:last-child > h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+main > section:last-child > div {
+  padding: 25px;
+  text-align: center;
   border-radius: 15px;
 }
 
 h3 {
-  color. #d85b91;
-  font-size: 22px
+  color: #d85b91;
+  font-size: 22px;
 }
-  nav {
-    text-aling: center;
-    padding: 15px;
-  }
-nav a {
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-h1 {
-  font-size: 60px;
-  text-aling: center ;
-  margin-top: 40px;
-}
+
 h2 + p {
-  text-aling: center;
-  font-sixe: 18px;
-}
-main > section:last-child {
-display: grid;
-  grid-templante-columns: repeat(2, 1fr);
-  gap: 25px;¨}
-main > section:last-child > div {
-  padding: 25px;
-  text-aling: center;
-  border-radius:15px;
-}
-main section:last-child {
-display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 25px;
-}
-main section:last-child > h2 {
-  grid-column: 1 / -1;
   text-align: center;
-}
-main section:last-child > div {
-  padding: 25px;
-  text-align:center;
-  border-radius: 15px;
+  font-size: 18px;
 }
