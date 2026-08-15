@@ -98,4 +98,12 @@ h2 + p {
   text-aling: center;
   font-sixe: 18px;
 }
-
+main > section:last-child {
+display: grid;
+  grid-templante-columns: repeat(2, 1fr);
+  gap: 25px;¨}
+main > section:last-child > div {
+  padding: 25px;
+  text-aling: center;
+  border-radius:m15px;
+}
