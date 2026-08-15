@@ -77,4 +77,16 @@ h3 {
   color. #d85b91;
   font-size: 22px
 }
-  
+  nav {
+    text-aling: center;
+    padding: 15px;
+  }
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
